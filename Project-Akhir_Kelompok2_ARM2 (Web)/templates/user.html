@@ -1,0 +1,37 @@
+{% extends 'home.html' %} {% block title %} Login User {% endblock %} {% block content %}
+<section>
+  <div class="container text-light" style="padding-top: 150px">
+    <div class="row justify-content-center">
+      <div class="col-md-4" style="background-color: rgb(90, 143, 212); padding: 30px">
+        <form action="/user" method="POST">
+          <div class="form-group mb-3">
+            <label>User Email:</label>
+
+            <input type="email" class="form-control" name="email" />
+          </div>
+
+          <div class="form-group mb-4">
+            <label>Password:</label>
+
+            <input type="password" class="form-control" name="password" />
+          </div>
+
+          <div class="form-group mb-3">
+            <button class="btn btn-danger">Login</button>
+          </div>
+          <div class="form-group">
+            <label>Haven't user account yet? </label>
+            <a role="button" class="btn btn-link text-warning" href="/registeruser">Let's Register</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  body {
+    background-image: url(static/img/home.jpg);
+  }
+</style>
+{% endblock %}
