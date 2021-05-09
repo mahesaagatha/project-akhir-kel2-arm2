@@ -1,0 +1,18 @@
+Kelompok2 - ARM2
+
+- Mahesa Agatha
+- Raihan Nur Fadhila
+- Dika Puspito
+- Gerardiawan
+
+Kelompok 2 
+
+PythonAnywhere : http://mahesaagatha.pythonanywhere.com/
+
+Github : https://github.com/mahesaagatha/project-akhir-kel2-arm2
+
+For User
+User : raihann@user.id , Pass : 1
+
+For Admin
+User : coco@register.id , Pass : 1 OTP For MIT : rehan123
